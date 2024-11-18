@@ -1,0 +1,42 @@
+﻿Size: 34 20
+
+BACKGROUND
+Sprites\\Backgrounds\\BG1.png
+Sprites\\Backgrounds\\BG2.png
+Sprites\\Backgrounds\\BG3.png
+Sprites\\Backgrounds\\BG4.png
+
+Key:
+# = stationary platform
+$ = dropping platform
+& = variable friction platform
+U = player
+H = hellhound
+S = spirit
+P = portal enter
+p = portal exit
+B = boss
+
+
+   1*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|
+START
+01                                                                                                                                                       |
+02                                                                                                                                                       |
+03                                                                                                                                                       |
+04                                                                                                                                                       |
+05                                                                                                                                                       |
+06                                                                                                                                                       |
+07                                                                                                                                                       |
+08                                                                                                                                                       |
+09                                                                                                                                                       |
+10                                                                                                                                                       |
+11                                                                                                                                                       |
+12                                                                                                                                                       |
+13                                                                                                                                                       |
+14                                                                                                                                                       |
+15                          H                                                                                                                            |
+16             	##############                                                                                                                           |
+17    U                                                                                               H                                                  |
+18 ######################################################################################################################################################|
+19                                                                                                                                                       |
+20                                                                                                                                                       |

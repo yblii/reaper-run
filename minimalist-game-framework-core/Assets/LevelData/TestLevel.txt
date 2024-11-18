@@ -1,0 +1,45 @@
+Size: 75 20
+
+BACKGROUND
+Sprites\\Backgrounds\\BG1.png
+Sprites\\Backgrounds\\BG2.png
+Sprites\\Backgrounds\\BG3.png
+Sprites\\Backgrounds\\BG4.png
+
+Key:
+# = stationary platform
+X = wall
+$ = dropping platform
+& = variable friction platform
+U = player
+H = hellhound
+S = spirit
+P = portal enter
+p = portal exit
+L = ladder
+W = climbable Wall
+R = reaper
+F = projectile spawner
+
+   1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********1*********
+START
+01                                                                                                                                                                      F                        |
+02                                                                                                                                                                                               |
+03                                                                                                                                                                                               |
+04                                                                                                                                                                                               |
+05                                                                                                            ZZ                                                                                 |
+06                                                                                                                                                                                               |
+07                                                                                                                                                                                               |
+08                                                                                                       p                                                                                       |
+09                                                                               W#####                 #####                                                                                    |
+10                                                                               W              P                      c                                                                         |
+11                                                                               W            &&&&&                 $$$$$                                                                        |
+12                                                                   R           W                                                                                                               |
+13                                                                L#####    $$$$$W                                                                                                               |
+14                                                                L                                                                                                                              |
+15                                                                L                                                           DD                                                                 |
+16                                                                L                                                           DD            X                                                    |
+17                #####    $$$$$    &&&&&                         L                                                           DD            X                                                    |
+18      U                                             H           L                                                           DD            X          ^^^                                     S |
+19 ##############################################################################################################################################################################################| 
+20                                                                                                                                                                                               |

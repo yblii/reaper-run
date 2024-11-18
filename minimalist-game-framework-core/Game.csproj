@@ -1,0 +1,102 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Builds\Temp</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>Builds\Debug</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputPath>Builds\Release</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assets\**" />
+    <Compile Remove="Docs\**" />
+    <Compile Remove="Libraries\**" />
+    <EmbeddedResource Remove="Assets\**" />
+    <EmbeddedResource Remove="Docs\**" />
+    <EmbeddedResource Remove="Libraries\**" />
+    <None Remove="Assets\**" />
+    <None Remove="Docs\**" />
+    <None Remove="Libraries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Game\Assets\TestLevel.txt" />
+    <None Remove="Game\Assets\Tutorial.txt" />
+    <None Remove="Level1.txt" />
+    <None Remove="Level2.txt" />
+    <None Remove="Level3.txt" />
+    <None Remove="LICENSE.md" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Game\**">
+      <CopyToutputDirectory>PreserveNewest&gt;</CopyToutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Game\GameStates\Boss.cs" />
+    <Compile Remove="Game\LevelLoading\Layers.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Sound\Attack.High.mp3" />
+    <Content Include="Assets\Sound\Attack.Low.mp3" />
+    <Content Include="Assets\Sound\Attack.Medium.mp3" />
+    <Content Include="Assets\Sound\Death.Death.mp3" />
+    <Content Include="Assets\Sound\Platform.Break.mp3" />
+    <Content Include="Assets\Sound\GameMusic.mp3" />
+    <Content Include="Assets\Sound\Hellhound.Death.mp3" />
+    <Content Include="Assets\Sprites\Boss.png" />
+    <Content Include="Assets\Sprites\Ladder.png" />
+    <Content Include="Assets\Sprites\Laser.png" />
+    <Content Include="Assets\Sprites\Background2.png" />
+    <Content Include="Assets\Sprites\Potion.png" />
+    <Content Include="Assets\Sprites\Shield.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Assets\Sound\Music and Sound Effects - Sources Cited.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Game\Assets\Level1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Game\Assets\Level1Scoreboard.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Game\Assets\Level3Scoreboard.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Game\Assets\Level2Scoreboard.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Game\Assets\Level2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Game\Assets\Level3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+</Project>
