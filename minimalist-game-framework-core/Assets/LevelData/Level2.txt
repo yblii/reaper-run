@@ -1,0 +1,45 @@
+﻿Size: 34 20
+
+BACKGROUND
+Sprites\\Backgrounds\\BG1.png
+Sprites\\Backgrounds\\BG2.png
+Sprites\\Backgrounds\\BG3.png
+Sprites\\Backgrounds\\BG4.png
+
+Key:
+# = stationary platform
+$ = dropping platform
+& = variable friction platform
+U = player
+H = hellhound
+S = spirit
+P = portal enter
+p = portal exit
+L = ladder
+W = climbable Wall
+R = reaper
+F = projectile spawner
+D = destructible terrain
+
+   1*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|
+START
+01                   FF                                                                          FF                      FF                              |
+02                                                                                                                                                       |
+03                                                                                                                                                       |
+04                                                                                                                                                       |
+05                                                                                   p c                                                                 |
+06                                                                                 #####                                                                 | 
+07                                                                                                c                                       c              |
+08                                                                                            &&&&&                                   L&&&&&             |
+09                                        c                             c ^^                                                          L                  | 
+10                            ZZZZZ     &&&&&        R                W&&&&&             ZZ                                           L                  |
+11                            #####                c                  W           H  c                                                L        ^ c       |
+12           c                                    $$$$$               W          $$$$$                              c              c  L       &&&&&      |
+13        &&&&&                                                  c    W                                      D    #####          #####L                  |
+14                                                               $$$$$W                                      D                                           |
+15                                                                                                           D                                  R        |
+16  U                c              H         c           c   P                                H   c         c                c        H    c          S |
+17	############################################       ##########      ########################################        ###################################|
+18                                                                                                                                                       |
+19	                                                                                                                                                      |
+20                                                                                                                                                       |

@@ -1,0 +1,20 @@
+x y (grid size)
+x y (cell size)
+
+START
+[Animation Title]
+# of frames in animation
+Intended duration (s)
+[true/false] <- whether the animation can be interrupted 
+
+[Animation Title]
+# of frames in animation
+Intended duration (s)
+[true/false]
+
+[Animation Title]
+# of frames in animation
+Intended duration (s)
+[true/false]
+
+etc.

@@ -1,0 +1,28 @@
+10 5
+96 64
+
+START
+Idle
+6
+0.6
+true
+
+Run
+6
+0.3
+true
+
+Attack_high
+10
+0.3
+false
+
+Attack_low
+10
+0.3
+false
+
+Attack_mid
+10
+0.3
+false

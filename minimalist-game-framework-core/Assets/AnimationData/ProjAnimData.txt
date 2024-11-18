@@ -1,0 +1,13 @@
+6 2
+48 48
+
+START
+Idle
+4
+0.4
+true
+
+Attack
+6
+0.4
+false

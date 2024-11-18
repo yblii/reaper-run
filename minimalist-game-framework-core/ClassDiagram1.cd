@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Achievement" Collapsed="true">
+    <Position X="27.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAgAAAAAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\AchievementStuff\Achievement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AchievementManager" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAIAAAAAAAAAAAAAAAACAABCAAAAQABAAAAAAAA=</HashCode>
+      <FileName>Game\AchievementStuff\AchievementManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="30.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAAAAAABAAAAABAAAIAAAEAAAAQ=</HashCode>
+      <FileName>Game\Animations\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animator" Collapsed="true">
+    <Position X="32.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAAAAAAAABAAAAAAAAAAEACAAAAEBAAAEABAAAAAA=</HashCode>
+      <FileName>Game\Animations\Animator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAWAICACQAAAMAAAAIhAAAgAAABCAgAIAAAA=</HashCode>
+      <FileName>Game\Animations\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coin" Collapsed="true">
+    <Position X="16.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQCQAIAAAAAAAAQE=</HashCode>
+      <FileName>Game\Collectibles\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthPotion" Collapsed="true">
+    <Position X="16.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\HealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAE=</HashCode>
+      <FileName>Game\Collectibles\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JumpPotion" Collapsed="true">
+    <Position X="14.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\JumpPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shield" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperJump" Collapsed="true">
+    <Position X="33.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\SuperJump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CritPoint" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Enemies\CritPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="31.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAACACUgAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hellhound" Collapsed="true">
+    <Position X="31.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARAAAAAAEAgAAAAAAIAAEMAAAAAQAAAAAAAAAAABBA=</HashCode>
+      <FileName>Game\Enemies\Hellhound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reaper" Collapsed="true">
+    <Position X="28.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Enemies\Reaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AchievementMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAIAAAAABAAAEAAAAAAAAAQACAAA=</HashCode>
+      <FileName>Game\GameStates\AchievementMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ActiveLevel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAoCIQAEACAAAAQAEAAEAQAEAAEAAIQA=</HashCode>
+      <FileName>Game\GameStates\ActiveLevel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChangeName" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\ChangeName.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Credits" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\Credits.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LevelSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAFAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\LevelSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoadingScreen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAgAAABAAgQAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameStates\LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoseScreen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\LoseScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameStates\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Rules" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\Rules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Scoreboard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAgAAAAAAAAAAAAAAAAAA4AAAAAAAAAA=</HashCode>
+      <FileName>Game\GameStates\Scoreboard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScoreManager" Collapsed="true">
+    <Position X="25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAEAABEA=</HashCode>
+      <FileName>Game\GameStates\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAEAAAAFAAAAAAEAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\StartMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateManager" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAABAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAARA=</HashCode>
+      <FileName>Game\GameStates\StateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinScreen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\GameStates\WinScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClimbableWall" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\ClimbableWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelayedProjectile" Collapsed="true">
+    <Position X="21.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAQAAABA=</HashCode>
+      <FileName>Game\LevelFeatures\DelayedProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestructableTerrain" Collapsed="true">
+    <Position X="31.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\DesctructableTerrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DroppingPlatform" Collapsed="true">
+    <Position X="25.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\DroppingPlatform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fireball" Collapsed="true">
+    <Position X="19.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Fireball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ladder" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Ladder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser" Collapsed="true">
+    <Position X="18.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Laser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platform" Collapsed="true">
+    <Position X="24.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal" Collapsed="true">
+    <Position X="27.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Portal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="20.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAAAAAAAJAAAAAAAAAAAAAAAQAAAIBAA=</HashCode>
+      <FileName>Game\LevelFeatures\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectileSpawner" Collapsed="true">
+    <Position X="30.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\ProjectileSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spike" Collapsed="true">
+    <Position X="22.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Spike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spirit" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Spirit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableFrictionPlatform" Collapsed="true">
+    <Position X="24" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\VariableFrictionPlatform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackgroundHandler" Collapsed="true">
+    <Position X="27.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelLoading\BackgroundHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileIO" Collapsed="true">
+    <Position X="17" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAAAAgQAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelLoading\FileIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level" Collapsed="true">
+    <Position X="17" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAAAgAIAAAsACAEQAAAAAACAACIAQAQAAA=</HashCode>
+      <FileName>Game\LevelLoading\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager" Collapsed="true">
+    <Position X="15.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAQAAAIAAAEJEAAAAEgAAAAAAgAAEAwAAAAAA=</HashCode>
+      <FileName>Game\LevelLoading\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileManager" Collapsed="true">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\LevelLoading\TileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="29" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAiAAAAAIAAAAAQAAAAAACAEAgQAAAAAhAABAAAE=</HashCode>
+      <FileName>Game\Other\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionHandler" Collapsed="true">
+    <Position X="27.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEcAAEAAAAEAAAAAAIAABABAgBAABAAEAAAAAABAACA=</HashCode>
+      <FileName>Game\Other\CollisionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebugDraw" Collapsed="true">
+    <Position X="29" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Other\DebugDraw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAQAghAAAAgAUgAgAAJQAAAoIBBCAgCFCjAAAAAAAAA=</HashCode>
+      <FileName>Game\Other\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Layers" Collapsed="true">
+    <Position X="15.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAgIAAAABAAAAAAAAAABAAAAAAAQACAADCQABAAA=</HashCode>
+      <FileName>Game\Other\Layers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="33.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQSCAAAAEIBFAQAAAAAIgAAAICBAAFDAQAACAAAEAA=</HashCode>
+      <FileName>Game\Other\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_input" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerInput" Collapsed="true">
+    <Position X="33.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAJAAEAgAAAAAgAAABAAIAAAAAABAACAAAAAIAA=</HashCode>
+      <FileName>Game\Other\PlayerInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Score" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAgUEAAAEAAAAAAAAAAAAIAAAgGAABAA=</HashCode>
+      <FileName>Game\Other\Score.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Status" Collapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Other\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextBox" Collapsed="true">
+    <Position X="29.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAQAIABAAAAAACAA=</HashCode>
+      <FileName>Game\Other\TextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="29" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Other\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AchievementDisplay" Collapsed="true">
+    <Position X="15.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Game\UI\AchievementDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar" Collapsed="true">
+    <Position X="17" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAAAAAAAAAIAAAAAAAAACDAAAQIEAAA=</HashCode>
+      <FileName>Game\UI\Bar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="18.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAEACAEAIgAAAAAIABAAAgAAAAA=</HashCode>
+      <FileName>Game\UI\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIElement" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIAAAAAAAAgAAABAAAAAAAAA=</HashCode>
+      <FileName>Game\UI\UIElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="27.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZAAAAAACADKEAAAgQAABAAAAAgAAAAAEEAABAAAAA=</HashCode>
+      <FileName>Game\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Alive" Collapsed="true">
+    <Position X="32.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEkBQACAAAEAAMAAAAAAAAEAIABEAIAAAAA=</HashCode>
+      <FileName>Game\Other\Alive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Death" Collapsed="true">
+    <Position X="34" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAHAAMQAhAIAIAEAIAEAAAAAAAgAEBQIAAAAABA=</HashCode>
+      <FileName>Game\Enemies\Death.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IGameState" Collapsed="true">
+    <Position X="21.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameStates\IGameState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AchievementName" Collapsed="true">
+    <Position X="27.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAIAAAAAAAAAAAAEAAAAAAAAAgAAAAEAAAAAA=</HashCode>
+      <FileName>Game\AchievementStuff\AchievementName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Actions" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAgCICAAAAAAAAAAAAIAAIAAgAAAAAABAAAI=</HashCode>
+      <FileName>Game\Animations\Actions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,23 @@
+6 4
+64 48
+
+START
+Anticipation
+2
+0.5
+true
+
+Run
+6
+0.6
+true
+
+Walk
+6
+0.9
+true
+
+Attack
+2
+0.2
+false

@@ -1,0 +1,45 @@
+﻿Size: 34 20
+
+BACKGROUND
+Sprites\\Backgrounds\\BG1.png
+Sprites\\Backgrounds\\BG2.png
+Sprites\\Backgrounds\\BG3.png
+Sprites\\Backgrounds\\BG4.png
+
+Key:
+# = stationary platform
+$ = dropping platform
+& = variable friction platform
+U = player
+H = hellhound
+S = spirit
+P = portal enter
+p = portal exit
+L = ladder
+W = climbable Wall
+R = reaper
+F = projectile spawner
+D = destructible terrain
+
+   1*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|*********1*********1****|
+START
+01                                                                   FF               DDDDDDD              F                                                                      |
+02                                                                                    D     D                                                                                     |
+03                                                                                    D     D                                                                                     |
+04                                  c                                                 D     D         c                              c                                            |
+05                                  W                        c                        D  p cD       $$$$$             c              X                                            |
+06                                  W                    &&&&&                        #######                      &&&&&             X        c^^                                 | 
+07                                  W                              cP         Z                                                   cR X       $$$$$                                |
+08                              c   W               R c           $$$$$                                       c                 &&&&&X                   c                        |
+09                             &&&&&W             W#####                                                   $$$$$                                     #####                        | 
+10                        X                       W                         c                      Rc                c ^^                                                         |
+11                      c X                    c  W                       &&&&&                 L&&&&&              #####                   DDD                  c                |
+12                    $$$$$                  $$$$$W                                   R         L                                           DcD                $$$$$              |
+13          c                                                 ZZZZZZ                $$$$$       L                                         $$$$$                                   |
+14        #####                                                                                 L                            ZZZZZ                                                |
+15                                                                                              L             Z                                                                   |
+16  U           ^^^           H      ^^^  c           R                           c       H   c L       c ^                     c         H        c      ^^         R       c   S|
+17	###########################################################      #######################################         ##############################################################|
+18                                                                                                                                                                                |
+19	                                                                                                                                                                               |
+20                                                                                                                                                                                |

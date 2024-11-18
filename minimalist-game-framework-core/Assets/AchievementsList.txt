@@ -1,0 +1,17 @@
+Officially Certified
+Clear the game
+
+Rookie
+Play the tutorial
+
+Pacifist
+Clear a level without attacking anything
+
+Greedy
+Collect all the coins in a level
+
+Stealth Mode
+Clear a level without taking damage
+
+Killer
+Kill a hellhound for the first time

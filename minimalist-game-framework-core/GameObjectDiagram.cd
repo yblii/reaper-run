@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Coin">
+    <Position X="10.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQCQAIAAAAAAAAQE=</HashCode>
+      <FileName>Game\Collectibles\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthPotion">
+    <Position X="12.5" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\HealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="9.5" Y="5.5" Width="3.75" />
+    <NestedTypes>
+      <Enum Name="Item.ItemWeights" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game\Collectibles\Item.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAE=</HashCode>
+      <FileName>Game\Collectibles\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JumpPotion">
+    <Position X="5.5" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\JumpPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shield">
+    <Position X="8" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Game\Collectibles\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CritPoint">
+    <Position X="21.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Enemies\CritPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="52.25" Y="9" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AgQAAACACUgAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hellhound">
+    <Position X="52.25" Y="12.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>IARAAAAAAEAgAAAAAAIAAEMAAAAAQAAAAAAAAAAABBA=</HashCode>
+      <FileName>Game\Enemies\Hellhound.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_anim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reaper">
+    <Position X="40.5" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Enemies\Reaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClimbableWall">
+    <Position X="32.75" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\ClimbableWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelayedProjectile">
+    <Position X="29.75" Y="11" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAQAAABA=</HashCode>
+      <FileName>Game\LevelFeatures\DelayedProjectile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_anim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DestructableTerrain">
+    <Position X="58.75" Y="9" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\DesctructableTerrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DroppingPlatform">
+    <Position X="34.25" Y="8.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\DroppingPlatform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fireball">
+    <Position X="27.5" Y="11" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Fireball.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_anim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ladder">
+    <Position X="29.25" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Ladder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser">
+    <Position X="24.5" Y="8.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Laser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle">
+    <Position X="24.75" Y="5.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platform">
+    <Position X="36.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal">
+    <Position X="44.25" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Portal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_anim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Projectile">
+    <Position X="28" Y="8.25" Width="3.5" />
+    <Members>
+      <Field Name="ay" Hidden="true" />
+      <Field Name="DefaultHeight" Hidden="true" />
+      <Field Name="DefaultWidth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAAAAAAAJAAAAAAAAAAAAAAAQAAAIBAA=</HashCode>
+      <FileName>Game\LevelFeatures\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectileSpawner">
+    <Position X="47.75" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\ProjectileSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spike">
+    <Position X="22.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Spike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spirit">
+    <Position X="17.5" Y="5.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\Spirit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_anim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VariableFrictionPlatform">
+    <Position X="38.5" Y="8.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LevelFeatures\VariableFrictionPlatform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="30" Y="0.5" Width="3.5" />
+    <Members>
+      <Field Name="_aX" Hidden="true" />
+      <Field Name="_aY" Hidden="true" />
+      <Method Name="ChangeColor" Hidden="true" />
+      <Field Name="color" Hidden="true" />
+      <Field Name="Debugging" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="GetCenter" Hidden="true" />
+      <Method Name="GetPrevBounds" Hidden="true" />
+      <Field Name="GRAVITY" Hidden="true" />
+      <Method Name="HorizontalCollision" Hidden="true" />
+      <Property Name="IsStatic" Hidden="true" />
+      <Method Name="NewBounds" Hidden="true" />
+      <Method Name="Overlaps" Hidden="true" />
+      <Property Name="PrevBound" Hidden="true" />
+      <Field Name="SpriteOffset" Hidden="true" />
+      <Field Name="toDestroy" Hidden="true" />
+      <Method Name="UnclipVertical" Hidden="true" />
+      <Method Name="UpdateGameObjects" Hidden="true" />
+      <Method Name="WillOverLapX" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>DAQAghAAAAgAUgAgAAJQAAAoIBBCAgCFCjAAAAAAAAA=</HashCode>
+      <FileName>Game\Other\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Player">
+    <Position X="48.75" Y="9" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQSCAAAAEIBFAQAAAAAIgAAAICBAAFDAQAACAAAEAA=</HashCode>
+      <FileName>Game\Other\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="anim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TextBox">
+    <Position X="13.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAQAIABAAAAAACAA=</HashCode>
+      <FileName>Game\Other\TextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animator">
+    <Position X="36" Y="15.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AIRAAAAAAAABAAAAAAAAAAEACAAAAEBAAAEABAAAAAA=</HashCode>
+      <FileName>Game\Animations\Animator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite">
+    <Position X="35.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAWAICACQAAAMAAAAIhAAAgAAABCAgAIAAAA=</HashCode>
+      <FileName>Game\Animations\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
